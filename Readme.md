@@ -8,7 +8,9 @@ works without access token too.
 ## Details for a stock
 curl -X GET https://api.stocktwits.com/api/2/streams/symbol/AAPL.json
 
-
+# Pushshift API 
+http://twitter-48943539.pushshift.io/search?contains_symbol=true&size=10
+http://twitter-48943539.pushshift.io/search?symbol=SRNE
 
 # API 
 

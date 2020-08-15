@@ -1,3 +1,5 @@
+config.ini 
+credentials.ini 
 venv
 *.pyc
 *.db*

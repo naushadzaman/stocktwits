@@ -1,2 +1,6 @@
+six
+redis
 ujson
+hiredis
 requests
+luminati==0.1.33

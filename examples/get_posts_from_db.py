@@ -10,7 +10,7 @@ def sql_fetch(con):
     for i,row in enumerate(rows):
         # print(json.dumps(json.loads(row[2]), indent=3))
         _json = json.loads(row[2])
-        print(_json["created_at"], _json["body"], _json["entities"]["sentiment"])
-        # if i > 0: break 
+        print(_json["created_at"], _json["body"], _json["entities"]["sentiment"], _json["symbols"])
+        if i > 0: break 
     print("total", i)
 sql_fetch(con)
